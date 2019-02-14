@@ -63,7 +63,7 @@ let formula4 = new SportCar({
     y: 210
 });
 
-let formula4 = new SportCar({
+let formula5 = new SportCar({
     x: 30,
     y: 255
 });
