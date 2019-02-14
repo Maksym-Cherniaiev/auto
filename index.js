@@ -40,32 +40,32 @@ SportCar.prototype.stop = function() {
 
 let formula = new SportCar({
     x: 30,
-    y: 30
+    y: 60
 });
 
 let formula1 = new SportCar({
     x: 30,
-    y: 75
+    y: 110
 });
 
 let formula2 = new SportCar({
     x: 30,
-    y: 120
+    y: 160
 });
 
 let formula3 = new SportCar({
     x: 30,
-    y: 165
+    y: 210
 });
 
 let formula4 = new SportCar({
     x: 30,
-    y: 210
+    y: 260
 });
 
 let formula5 = new SportCar({
     x: 30,
-    y: 255
+    y: 310
 });
 
 
