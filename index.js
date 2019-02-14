@@ -5,15 +5,10 @@ let SportCar = function(options) {
     this.y = options.y;
     this.speed = options.speed || Math.random();
     this.speedIncrement = options.speedIncrement || Math.random();
-    this.ask();
     this.draw();
     this.moveRight();
 };
 
-SportCar.prototype.ask = function() {
-    let name = prompt("Your name");
-    alert(`Yooor name is ${name}`);
-};
 
 SportCar.prototype.draw = function() {
     let sportCarHtml = '<img src="https://img.icons8.com/color/48/000000/f1-race-car-top-veiw.png">';
