@@ -18,7 +18,7 @@ SportCar.prototype.draw = function() {
         left: this.x,
         top: this.y
     });
-    $("body").append(this.sportCarElement);
+    $(".track").append(this.sportCarElement);
 };
 
 SportCar.prototype.moveRight = function() {
