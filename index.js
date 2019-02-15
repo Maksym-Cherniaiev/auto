@@ -68,6 +68,11 @@ let formula5 = new SportCar({
     y: 255
 });
 
+let formula6 = new SportCar({
+    x: 30,
+    y: 255
+});
+
 
 
 document.querySelector(".start").addEventListener("click", formula1.drive.bind(formula1));
@@ -87,3 +92,6 @@ document.querySelector(".stop").addEventListener("click", formula4.stop.bind(for
 
 document.querySelector(".start").addEventListener("click", formula5.drive.bind(formula5));
 document.querySelector(".stop").addEventListener("click", formula5.stop.bind(formula5));
+
+document.querySelector(".start").addEventListener("click", formula6.drive.bind(formula6));
+document.querySelector(".stop").addEventListener("click", formula6.stop.bind(formula6));
