@@ -1,11 +1,17 @@
+body {
+	background-color: rgb(198, 198, 198);
+}
+
 .buttons {
 	background-color: rgb(237, 238, 255);
+	border-radius: 10px;
 }
 
 .btn {
 	background-color: rgb(251, 247, 255);
 	border: 0;
 	color: gray;
+	padding: 10px 40px 10px 40px;
 }
 
 .container {
@@ -15,4 +21,13 @@
 
 .info {
 	color: gray;
+}
+
+.track {
+	background-color: rgb(198, 198, 198);
+	position: fixed;
+	top: 221;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
